@@ -26,7 +26,7 @@ class World {
     container.append(renderer.domElement);
 
     const cube = createCube();
-    const sphere = createSphere();
+    // const sphere = createSphere();
     const light = createLights();
 
     loop.updatables.push(cube, sphere, camera);
