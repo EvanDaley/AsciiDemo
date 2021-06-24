@@ -29,7 +29,7 @@ class World {
     // const sphere = createSphere();
     const light = createLights();
 
-    loop.updatables.push(cube, sphere, camera);
+    loop.updatables.push(cube, camera);
 
     scene.add(
       cube,
