@@ -11,7 +11,7 @@ function createMaterial() {
   const textureLoader = new TextureLoader();
 
   const texture = textureLoader.load(
-    '/assets/textures/stepbrothers.png',
+    'stepbrothers.png',
     // '/assets/textures/uv-test-col.png',
   );
 
