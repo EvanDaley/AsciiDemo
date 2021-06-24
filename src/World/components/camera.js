@@ -13,7 +13,6 @@ function createCamera() {
   let direction = 1
 
   camera.tick = (delta) => {
-    console.log("HERE")
     i += metersPerSecond * delta * direction
     camera.position.z = i
 
